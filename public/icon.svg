@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a8b49"/>
+      <stop offset="50%" stop-color="#248243"/>
+      <stop offset="100%" stop-color="#1b6d39"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background with rounded squircle / Android app icon style -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+
+  <!-- Subtle pharmacy shelves lines watermark -->
+  <g opacity="0.08" fill="#FFFFFF">
+    <rect x="56" y="90" width="180" height="20" rx="6"/>
+    <rect x="276" y="90" width="180" height="20" rx="6"/>
+    <rect x="56" y="400" width="180" height="20" rx="6"/>
+    <rect x="276" y="400" width="180" height="20" rx="6"/>
+  </g>
+
+  <!-- Text Layer: JAN -->
+  <text x="70" y="275" fill="#FFFFFF" font-size="78" font-weight="900" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" letter-spacing="4" filter="url(#shadow)">
+    JAN
+  </text>
+
+  <!-- Text Layer: CHEMIST -->
+  <text x="70" y="345" fill="#FFFFFF" font-size="54" font-weight="900" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" letter-spacing="6" filter="url(#shadow)">
+    CHEMIST
+  </text>
+
+  <!-- Red ECG Heartbeat Pulse cutting prominently across -->
+  <!-- Glow -->
+  <path d="M 40 215 L 180 215 L 205 195 L 225 235 L 260 95 L 295 330 L 325 180 L 350 230 L 370 215 L 472 215"
+        fill="none" stroke="#EF233C" stroke-width="18" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="8" opacity="0.35"/>
+
+  <!-- Crisp Red Line -->
+  <path d="M 40 215 L 180 215 L 205 195 L 225 235 L 260 95 L 295 330 L 325 180 L 350 230 L 370 215 L 472 215"
+        fill="none" stroke="#EF233C" stroke-width="11" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="8"/>
+
+  <!-- Tagline Badge -->
+  <g transform="translate(130, 420)">
+    <rect x="0" y="0" width="252" height="34" rx="17" fill="#ffffff" fill-opacity="0.15"/>
+    <circle cx="20" cy="17" r="5" fill="#EF233C"/>
+    <text x="35" y="22" fill="#FFFFFF" font-size="16" font-style="italic" font-weight="700" font-family="'Plus Jakarta Sans', system-ui, sans-serif">
+      With us its original
+    </text>
+  </g>
+</svg>

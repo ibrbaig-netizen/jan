@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Subtle Scale Pulse Animation for Hotline CTA */
+@keyframes subtle-scale-pulse {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 10px 25px -3px rgba(5, 150, 105, 0.4), 0 4px 6px -4px rgba(5, 150, 105, 0.2);
+  }
+  50% {
+    transform: scale(1.045);
+    box-shadow: 0 16px 32px -4px rgba(5, 150, 105, 0.6), 0 0 18px 3px rgba(16, 185, 129, 0.4);
+  }
+}
+
+.animate-subtle-scale-pulse {
+  animation: subtle-scale-pulse 2.4s ease-in-out infinite;
+}

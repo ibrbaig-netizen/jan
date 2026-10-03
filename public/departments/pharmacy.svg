@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.15" />
+    </filter>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.12" />
+    </filter>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0055b3" />
+      <stop offset="100%" stop-color="#0066cc" />
+    </linearGradient>
+  </defs>
+
+  <!-- Clean Pure White Background -->
+  <rect width="500" height="500" fill="#ffffff" rx="24" />
+
+  <!-- Subtle Inner Border Frame -->
+  <rect x="12" y="12" width="476" height="476" rx="20" fill="none" stroke="#f1f5f9" stroke-width="1.5" />
+
+  <!-- Product Cutouts Container -->
+  <g transform="translate(0, 10)">
+    
+      <!-- Nutrifactor Vitamax Women Bottle -->
+      <g filter="url(#shadow)" transform="translate(160, 60)">
+        <!-- Bottle Cap -->
+        <rect x="40" y="0" width="100" height="35" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+        <!-- Bottle Body -->
+        <rect x="15" y="35" width="150" height="280" rx="24" fill="#0f172a"/>
+        <!-- White Label -->
+        <rect x="18" y="70" width="144" height="200" fill="#ffffff"/>
+        <!-- Brand Nutrifactor -->
+        <rect x="35" y="75" width="110" height="22" rx="11" fill="#15803d"/>
+        <text x="90" y="90" text-anchor="middle" font-family="sans-serif" font-weight="800" font-size="11" fill="#ffffff">Nutrifactor</text>
+        <!-- Title VITAMAX -->
+        <text x="90" y="118" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="18" fill="#1e3a8a">VITAMAX</text>
+        <text x="90" y="136" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="16" fill="#dc2626">WOMEN</text>
+        <text x="90" y="152" text-anchor="middle" font-family="sans-serif" font-weight="600" font-size="9" fill="#64748b">One A Day Multi</text>
+        <!-- Runner Circle Graphic -->
+        <circle cx="90" cy="185" r="24" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+        <path d="M85,175 L95,185 L90,198" stroke="#dc2626" stroke-width="3" fill="none"/>
+        <!-- Bottom Pills Count -->
+        <rect x="25" y="240" width="130" height="22" fill="#be123c"/>
+        <text x="90" y="255" text-anchor="middle" font-family="sans-serif" font-weight="800" font-size="10" fill="#ffffff">30 TABLETS</text>
+      </g>
+    
+  </g>
+
+  <!-- Grounding Shadow below products -->
+  <ellipse cx="250" cy="385" rx="190" ry="14" fill="#000000" opacity="0.06" filter="blur(8px)" />
+
+  <!-- Bold Blue Department Title at Bottom (Exact Match to Uploaded Pictures) -->
+  <text 
+    x="250" 
+    y="445" 
+    text-anchor="middle" 
+    font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
+    font-weight="800" 
+    font-size="34" 
+    letter-spacing="0.5" 
+    fill="#0052b4"
+  >PHARMACY</text>
+</svg>

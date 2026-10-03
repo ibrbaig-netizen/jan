@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.15" />
+    </filter>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.12" />
+    </filter>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0055b3" />
+      <stop offset="100%" stop-color="#0066cc" />
+    </linearGradient>
+  </defs>
+
+  <!-- Clean Pure White Background -->
+  <rect width="500" height="500" fill="#ffffff" rx="24" />
+
+  <!-- Subtle Inner Border Frame -->
+  <rect x="12" y="12" width="476" height="476" rx="20" fill="none" stroke="#f1f5f9" stroke-width="1.5" />
+
+  <!-- Product Cutouts Container -->
+  <g transform="translate(0, 10)">
+    
+      <!-- Philips Rotary Shaver -->
+      <g filter="url(#shadow)" transform="translate(85, 75)">
+        <rect x="15" y="60" width="75" height="220" rx="35" fill="#0f172a"/>
+        <!-- 3-head shaver top -->
+        <ellipse cx="52" cy="55" rx="42" ry="25" fill="#334155"/>
+        <circle cx="35" cy="48" r="14" fill="#94a3b8" stroke="#cbd5e1" stroke-width="2"/>
+        <circle cx="68" cy="48" r="14" fill="#94a3b8" stroke="#cbd5e1" stroke-width="2"/>
+        <circle cx="52" cy="65" r="14" fill="#94a3b8" stroke="#cbd5e1" stroke-width="2"/>
+        <!-- Power button -->
+        <circle cx="52" cy="140" r="12" fill="#0284c7"/>
+        <text x="52" y="240" text-anchor="middle" font-family="sans-serif" font-weight="800" font-size="10" fill="#ffffff">PHILIPS</text>
+      </g>
+      <!-- Nivea Men Shave Gel Spray Can -->
+      <g filter="url(#shadow)" transform="translate(180, 70)">
+        <rect x="10" y="30" width="75" height="250" rx="14" fill="#1e293b"/>
+        <rect x="25" y="5" width="45" height="30" rx="6" fill="#334155"/>
+        <!-- Nivea Men circle -->
+        <circle cx="47" cy="85" r="24" fill="#1e3a8a"/>
+        <text x="47" y="86" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="9" fill="#ffffff">NIVEA</text>
+        <text x="47" y="96" text-anchor="middle" font-family="sans-serif" font-weight="800" font-size="8" fill="#93c5fd">MEN</text>
+        <rect x="18" y="125" width="60" height="24" rx="4" fill="#0284c7"/>
+        <text x="48" y="141" text-anchor="middle" font-family="sans-serif" font-weight="800" font-size="11" fill="#ffffff">DEEP</text>
+        <text x="48" y="175" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="8" fill="#ffffff">CLEAN SHAVE</text>
+      </g>
+      <!-- Gillette Mach3 Blades Pack -->
+      <g filter="url(#shadow)" transform="translate(265, 140)">
+        <rect x="0" y="0" width="135" height="150" rx="12" fill="#0284c7"/>
+        <text x="67" y="45" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="18" fill="#ffffff">Gillette</text>
+        <text x="67" y="70" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="16" fill="#facc15">MACH 3</text>
+        <rect x="15" y="85" width="105" height="40" rx="6" fill="#0f172a"/>
+        <line x1="30" y1="97" x2="105" y2="97" stroke="#cbd5e1" stroke-width="2"/>
+        <line x1="30" y1="105" x2="105" y2="105" stroke="#cbd5e1" stroke-width="2"/>
+        <line x1="30" y1="113" x2="105" y2="113" stroke="#cbd5e1" stroke-width="2"/>
+      </g>
+    
+  </g>
+
+  <!-- Grounding Shadow below products -->
+  <ellipse cx="250" cy="385" rx="190" ry="14" fill="#000000" opacity="0.06" filter="blur(8px)" />
+
+  <!-- Bold Blue Department Title at Bottom (Exact Match to Uploaded Pictures) -->
+  <text 
+    x="250" 
+    y="445" 
+    text-anchor="middle" 
+    font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
+    font-weight="800" 
+    font-size="34" 
+    letter-spacing="0.5" 
+    fill="#0052b4"
+  >MEN & CARE</text>
+</svg>

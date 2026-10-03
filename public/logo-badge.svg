@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 100" width="340" height="100">
+  <defs>
+    <linearGradient id="badgeBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a8b49"/>
+      <stop offset="50%" stop-color="#248243"/>
+      <stop offset="100%" stop-color="#1b6d39"/>
+    </linearGradient>
+    <filter id="badgeEcgGlow" x="-20%" y="-30%" width="140%" height="160%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Green Rounded Badge Container -->
+  <rect width="340" height="100" rx="20" fill="url(#badgeBgGrad)" stroke="#34d399" stroke-opacity="0.35" stroke-width="1.5"/>
+
+  <!-- Subtle Pharmacy Shelf watermark lines -->
+  <g opacity="0.08" fill="#FFFFFF">
+    <rect x="20" y="12" width="60" height="10" rx="3"/>
+    <rect x="95" y="12" width="50" height="10" rx="3"/>
+    <rect x="210" y="12" width="55" height="10" rx="3"/>
+    <rect x="20" y="78" width="65" height="10" rx="3"/>
+    <rect x="260" y="78" width="60" height="10" rx="3"/>
+  </g>
+
+  <!-- JAN -->
+  <text x="30" y="55" fill="#FFFFFF" font-size="32" font-weight="900" font-family="'Plus Jakarta Sans', 'Outfit', system-ui, -apple-system, sans-serif" letter-spacing="2.5">
+    JAN
+  </text>
+
+  <!-- CHEMIST -->
+  <text x="156" y="55" fill="#FFFFFF" font-size="32" font-weight="900" font-family="'Plus Jakarta Sans', 'Outfit', system-ui, -apple-system, sans-serif" letter-spacing="2.5">
+    CHEMIST
+  </text>
+
+  <!-- Soft Red Pulse Glow -->
+  <path d="M 20 45 L 98 45 L 108 40 L 116 48 L 131 10 L 144 77 L 154 34 L 163 48 L 170 45 L 320 45"
+        fill="none" stroke="#EF233C" stroke-width="6" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="8" opacity="0.35" filter="url(#badgeEcgGlow)"/>
+
+  <!-- Sharp Red ECG Pulse Line -->
+  <path d="M 20 45 L 98 45 L 108 40 L 116 48 L 131 10 L 144 77 L 154 34 L 163 48 L 170 45 L 320 45"
+        fill="none" stroke="#EF233C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="8"/>
+
+  <!-- Tagline: With us its original -->
+  <g transform="translate(80, 81)">
+    <circle cx="0" cy="-4" r="3" fill="#EF233C"/>
+    <text x="10" y="0" fill="#D1FAE5" font-size="12" font-style="italic" font-weight="700" font-family="'Plus Jakarta Sans', system-ui, sans-serif" letter-spacing="0.5">
+      “With us its original”
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.15" />
+    </filter>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.12" />
+    </filter>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0055b3" />
+      <stop offset="100%" stop-color="#0066cc" />
+    </linearGradient>
+  </defs>
+
+  <!-- Clean Pure White Background -->
+  <rect width="500" height="500" fill="#ffffff" rx="24" />
+
+  <!-- Subtle Inner Border Frame -->
+  <rect x="12" y="12" width="476" height="476" rx="20" fill="none" stroke="#f1f5f9" stroke-width="1.5" />
+
+  <!-- Product Cutouts Container -->
+  <g transform="translate(0, 10)">
+    
+      <!-- Cerelac Nature's Selection Box -->
+      <g filter="url(#shadow)" transform="translate(125, 65)">
+        <rect x="0" y="0" width="180" height="255" rx="12" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+        <rect x="45" y="15" width="90" height="35" rx="8" fill="#dc2626"/>
+        <text x="90" y="38" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="16" fill="#ffffff">Cerelac</text>
+        <!-- Nature's selection tag -->
+        <rect x="25" y="65" width="130" height="60" rx="8" fill="#15803d"/>
+        <text x="90" y="90" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="13" fill="#ffffff">NATURE'S</text>
+        <text x="90" y="110" text-anchor="middle" font-family="sans-serif" font-weight="800" font-size="12" fill="#fef08a">SELECTION</text>
+        <!-- Blue bear cartoon -->
+        <circle cx="60" cy="180" r="22" fill="#3b82f6"/>
+        <circle cx="48" cy="165" r="8" fill="#2563eb"/>
+        <circle cx="72" cy="165" r="8" fill="#2563eb"/>
+        <!-- Cereal bowl -->
+        <ellipse cx="130" cy="190" rx="30" ry="16" fill="#ea580c"/>
+      </g>
+    
+  </g>
+
+  <!-- Grounding Shadow below products -->
+  <ellipse cx="250" cy="385" rx="190" ry="14" fill="#000000" opacity="0.06" filter="blur(8px)" />
+
+  <!-- Bold Blue Department Title at Bottom (Exact Match to Uploaded Pictures) -->
+  <text 
+    x="250" 
+    y="445" 
+    text-anchor="middle" 
+    font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
+    font-weight="800" 
+    font-size="34" 
+    letter-spacing="0.5" 
+    fill="#0052b4"
+  >BABY FOODS</text>
+</svg>

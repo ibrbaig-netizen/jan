@@ -1,0 +1,136 @@
+{
+  "id": "/",
+  "name": "JAN CHEMIST - Superstore & Pharmacy",
+  "short_name": "Jan Chemist",
+  "description": "Jan Chemist Superstore & Pharmacy. 100% Original Guarantee. 10 Departments: Cosmetics, Grocery, Drinks, Lingerie, Toiletries, Toys, Birthday Items, Crockery, Electronics & Prescription Medicines.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "any",
+  "background_color": "#ffffff",
+  "theme_color": "#248243",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": [
+    "shopping",
+    "medical",
+    "health",
+    "lifestyle"
+  ],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/pwa-192x192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/desktop-preview.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Jan Chemist Superstore & Pharmacy Desktop Storefront"
+    },
+    {
+      "src": "/screenshots/mobile-preview.png",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Jan Chemist Mobile App with Instant WhatsApp Ordering"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Upload Prescription",
+      "short_name": "Upload Rx",
+      "description": "Upload a photo of doctor prescription for fast verification and delivery",
+      "url": "/?action=prescription",
+      "icons": [
+        {
+          "src": "/pwa-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Cosmetics Department",
+      "short_name": "Cosmetics",
+      "description": "Shop 100% original perfumes, skincare & makeup",
+      "url": "/?dept=cosmetics",
+      "icons": [
+        {
+          "src": "/pwa-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Track Order on WhatsApp",
+      "short_name": "Track Order",
+      "description": "Direct WhatsApp hotline order tracking",
+      "url": "/?action=track",
+      "icons": [
+        {
+          "src": "/pwa-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "related_applications": [
+    {
+      "platform": "play",
+      "id": "com.janchemist.superstore"
+    }
+  ]
+}

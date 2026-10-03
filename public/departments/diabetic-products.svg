@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.15" />
+    </filter>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.12" />
+    </filter>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0055b3" />
+      <stop offset="100%" stop-color="#0066cc" />
+    </linearGradient>
+  </defs>
+
+  <!-- Clean Pure White Background -->
+  <rect width="500" height="500" fill="#ffffff" rx="24" />
+
+  <!-- Subtle Inner Border Frame -->
+  <rect x="12" y="12" width="476" height="476" rx="20" fill="none" stroke="#f1f5f9" stroke-width="1.5" />
+
+  <!-- Product Cutouts Container -->
+  <g transform="translate(0, 10)">
+    
+      <!-- CareTouch Blood Glucose Kit Box -->
+      <g filter="url(#shadow)" transform="translate(170, 75)">
+        <rect x="0" y="0" width="170" height="230" rx="14" fill="#0284c7"/>
+        <rect x="15" y="15" width="140" height="40" rx="6" fill="#0369a1"/>
+        <text x="85" y="38" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="14" fill="#ffffff">CareTouch</text>
+        <text x="85" y="75" text-anchor="middle" font-family="sans-serif" font-weight="800" font-size="12" fill="#f0f9ff">BLOOD GLUCOSE</text>
+        <text x="85" y="92" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="10" fill="#bae6fd">MONITORING SYSTEM</text>
+      </g>
+      <!-- Digital Meter in front -->
+      <g filter="url(#shadow)" transform="translate(210, 160)">
+        <rect x="0" y="0" width="95" height="145" rx="32" fill="#ffffff" stroke="#94a3b8" stroke-width="2"/>
+        <!-- LCD screen -->
+        <rect x="15" y="25" width="65" height="55" rx="6" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.5"/>
+        <text x="47" y="62" text-anchor="middle" font-family="monospace" font-weight="900" font-size="28" fill="#0f172a">104</text>
+        <text x="47" y="74" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="8" fill="#64748b">mg/dL</text>
+        <!-- Buttons -->
+        <circle cx="35" cy="105" r="10" fill="#e2e8f0"/>
+        <circle cx="60" cy="105" r="10" fill="#e2e8f0"/>
+      </g>
+      <!-- Test Strips Vials -->
+      <g filter="url(#shadow)" transform="translate(320, 200)">
+        <rect x="0" y="10" width="45" height="95" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+        <rect x="5" y="0" width="35" height="15" rx="4" fill="#0284c7"/>
+        <rect x="5" y="35" width="35" height="40" fill="#0369a1"/>
+      </g>
+    
+  </g>
+
+  <!-- Grounding Shadow below products -->
+  <ellipse cx="250" cy="385" rx="190" ry="14" fill="#000000" opacity="0.06" filter="blur(8px)" />
+
+  <!-- Bold Blue Department Title at Bottom (Exact Match to Uploaded Pictures) -->
+  <text 
+    x="250" 
+    y="445" 
+    text-anchor="middle" 
+    font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
+    font-weight="800" 
+    font-size="34" 
+    letter-spacing="0.5" 
+    fill="#0052b4"
+  >DIABETIC PRODUCTS</text>
+</svg>

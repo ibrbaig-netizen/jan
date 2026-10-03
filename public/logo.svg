@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 75" width="320" height="75">
+  <defs>
+    <filter id="ecgGlow" x="-20%" y="-30%" width="140%" height="160%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Word 1: JAN -->
+  <text x="18" y="52" fill="#FFFFFF" font-size="32" font-weight="900" font-family="'Plus Jakarta Sans', 'Outfit', system-ui, -apple-system, sans-serif" letter-spacing="2.5">
+    JAN
+  </text>
+
+  <!-- Word 2: CHEMIST -->
+  <text x="142" y="52" fill="#FFFFFF" font-size="32" font-weight="900" font-family="'Plus Jakarta Sans', 'Outfit', system-ui, -apple-system, sans-serif" letter-spacing="2.5">
+    CHEMIST
+  </text>
+
+  <!-- Soft Red ECG Pulse Glow -->
+  <path d="M 10 42 L 86 42 L 96 37 L 104 45 L 119 7 L 132 74 L 142 31 L 151 45 L 158 42 L 310 42"
+        fill="none" stroke="#EF233C" stroke-width="6" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="8" opacity="0.35" filter="url(#ecgGlow)"/>
+
+  <!-- Sharp Red ECG Pulse Line -->
+  <path d="M 10 42 L 86 42 L 96 37 L 104 45 L 119 7 L 132 74 L 142 31 L 151 45 L 158 42 L 310 42"
+        fill="none" stroke="#EF233C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="8"/>
+</svg>

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.15" />
+    </filter>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.12" />
+    </filter>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0055b3" />
+      <stop offset="100%" stop-color="#0066cc" />
+    </linearGradient>
+  </defs>
+
+  <!-- Clean Pure White Background -->
+  <rect width="500" height="500" fill="#ffffff" rx="24" />
+
+  <!-- Subtle Inner Border Frame -->
+  <rect x="12" y="12" width="476" height="476" rx="20" fill="none" stroke="#f1f5f9" stroke-width="1.5" />
+
+  <!-- Product Cutouts Container -->
+  <g transform="translate(0, 10)">
+    
+      <!-- L'Oreal Revitalift Cleanser Tube -->
+      <g filter="url(#shadow)" transform="translate(85, 95)">
+        <path d="M20,0 L70,0 L85,240 L5,240 Z" fill="#e9d5ff" stroke="#c084fc" stroke-width="2"/>
+        <rect x="15" y="240" width="60" height="35" rx="6" fill="#7e22ce"/>
+        <text x="45" y="45" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="14" fill="#581c87">L'OREAL</text>
+        <rect x="10" y="70" width="70" height="40" fill="#c026d3"/>
+        <text x="45" y="88" text-anchor="middle" font-family="sans-serif" font-weight="800" font-size="9" fill="#ffffff">REVITALIFT</text>
+        <text x="45" y="102" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="8" fill="#fdf4ff">HYALURONIC</text>
+        <circle cx="45" cy="165" r="22" fill="#ffffff" opacity="0.6"/>
+      </g>
+      <!-- Nivea Body Lotion Blue Pump Bottle -->
+      <g filter="url(#shadow)" transform="translate(180, 50)">
+        <!-- Pump Head -->
+        <rect x="42" y="0" width="16" height="30" fill="#1e3a8a"/>
+        <path d="M20,10 L50,10 L50,22 L15,18 Z" fill="#1e40af"/>
+        <!-- Bottle Body -->
+        <rect x="10" y="30" width="80" height="290" rx="28" fill="#1e3a8a"/>
+        <!-- Nivea round logo -->
+        <circle cx="50" cy="100" r="28" fill="#1e40af" stroke="#ffffff" stroke-width="2"/>
+        <text x="50" y="106" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="13" fill="#ffffff">NIVEA</text>
+        <!-- 48h badge -->
+        <rect x="25" y="145" width="50" height="24" rx="4" fill="#3b82f6"/>
+        <text x="50" y="161" text-anchor="middle" font-family="sans-serif" font-weight="800" font-size="11" fill="#ffffff">48h</text>
+        <text x="50" y="195" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="10" fill="#93c5fd">NOURISHING</text>
+        <text x="50" y="210" text-anchor="middle" font-family="sans-serif" font-weight="500" font-size="8" fill="#ffffff">Deep Moisture</text>
+      </g>
+      <!-- Neutrogena Hydro Boost Jar -->
+      <g filter="url(#shadow)" transform="translate(275, 195)">
+        <rect x="0" y="35" width="135" height="110" rx="14" fill="#0284c7"/>
+        <rect x="5" y="5" width="125" height="35" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+        <text x="67" y="70" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="13" fill="#ffffff">Neutrogena</text>
+        <text x="67" y="90" text-anchor="middle" font-family="sans-serif" font-weight="800" font-size="11" fill="#e0f2fe">Hydro Boost</text>
+        <rect x="30" y="105" width="75" height="22" rx="4" fill="#0369a1"/>
+        <text x="67" y="120" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="10" fill="#ffffff">Water Gel 50ml</text>
+      </g>
+    
+  </g>
+
+  <!-- Grounding Shadow below products -->
+  <ellipse cx="250" cy="385" rx="190" ry="14" fill="#000000" opacity="0.06" filter="blur(8px)" />
+
+  <!-- Bold Blue Department Title at Bottom (Exact Match to Uploaded Pictures) -->
+  <text 
+    x="250" 
+    y="445" 
+    text-anchor="middle" 
+    font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
+    font-weight="800" 
+    font-size="34" 
+    letter-spacing="0.5" 
+    fill="#0052b4"
+  >COSMETICS</text>
+</svg>

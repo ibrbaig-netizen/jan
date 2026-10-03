@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix  janchemist 1",
+  "description": "Jan Chemist superstore \u0026 pharmacy featuring 9 departments: Cosmetics, Grocery, Drinks, Lingerie, Toiletries, Toys, Birthday Items, Crockery, and Electronics with WhatsApp ordering, prescription uploads, and Excel bulk inventory management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
